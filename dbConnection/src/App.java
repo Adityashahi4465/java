@@ -3,8 +3,8 @@ import java.sql.*;
 public class App {
     public static void main(String[] args) throws Exception {
         String dbUrl = "jdbc:oracle:thin:@localhost:1521/orclpdb";
-        String username = "hr";
-        String password = "hr";
+        String username = "your_username";
+        String password = "your_password";
 
         try {
             Connection connection = DriverManager.getConnection(dbUrl, username, password);
